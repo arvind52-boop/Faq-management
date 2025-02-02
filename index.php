@@ -6,7 +6,7 @@ $query = "SELECT id, question, answer FROM faqs"; // Fetch only original data
 $result = $conn->query($query);
 
 function translateText($text, $targetLanguage) {
-    $apiKey = 'AIzaSyAnn3XgNyEMWG9SUjTD2dh8Xl2JZJSJVLI'; 
+    $apiKey = 'API_KEY'; 
     $url = "https://translation.googleapis.com/language/translate/v2?key=$apiKey";
 
     $data = [
