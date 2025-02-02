@@ -26,6 +26,7 @@ This is a simple FAQ (Frequently Asked Questions) management system that allows 
 
 The project is hosted live and can be accessed via the following link:
 
-[**Project Live Link**](http://your-infinityfree-project-link.com)
+[**Project Live Link**](http://faq-management01.infinityfreeapp.com/)
+(It may take upto 72 hours to start domain)
 
 
