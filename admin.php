@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $lang = $_POST['language'];
 
     // API Key for Google Translate
-    $apiKey = 'AIzaSyAnn3XgNyEMWG9SUjTD2dh8Xl2JZJSJVLI';  
+    $apiKey = 'API_KEY';  
 
     // Use Prepared Statements for Security
     $stmt = $conn->prepare("INSERT INTO faqs (question, answer, language) VALUES (?, ?, ?)");
